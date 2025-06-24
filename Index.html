@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой музыкальный плеер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="player">
+    <h1>Музыкальный плеер</h1>
+    <div class="track-info">
+        <img id="cover" src=" https://cdn-icons-png.flaticon.com/512/126/126493.png"Обложка">
+        <h2 id="title">Название трека</h2>
+        <p id="artist">Исполнитель</p>
+    </div>
+    <audio id="audio" controls></audio>
+    <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+    </div>
+    <ul id="playlist"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
